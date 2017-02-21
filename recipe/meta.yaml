@@ -1,7 +1,7 @@
 {%set name = "py4j" %}
-{%set version = "0.10.3" %}
+{%set version = "0.10.4" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "3c7c523f72fc2a591da4762b2606bad769585e6b1128c6538d76224d3ff17265" %}
+{%set hash_val = "b49a28c6bd96d334a39c15c3ce52225585332eff5e2659c7dc7aa223aa8bd454" %}
 
 package:
   name: {{ name }}
