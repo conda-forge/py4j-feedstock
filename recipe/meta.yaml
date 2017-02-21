@@ -1,19 +1,21 @@
 {%set name = "py4j" %}
-{%set version = "0.10.3" %}
+{%set version = "0.10.4" %}
+{%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "3c7c523f72fc2a591da4762b2606bad769585e6b1128c6538d76224d3ff17265" %}
+{%set hash_val = "b49a28c6bd96d334a39c15c3ce52225585332eff5e2659c7dc7aa223aa8bd454" %}
+{%set build_num = "0" %}
 
 package:
-  name: {{ name }}
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  fn: {{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 0
+  number: {{ build_num }}
   script: python setup.py install
 
 requirements:
@@ -32,8 +34,11 @@ test:
 about:
   home: http://py4j.sourceforge.net/
   license: BSD 3-Clause
+  license_family: BSD
   license_file: LICENSE.txt
   summary: 'Enables Python programs to dynamically access arbitrary Java objects'
+  dev_url: https://github.com/bartdag/py4j
+  doc_url: http://py4j.sourceforge.net/
 
 extra:
   recipe-maintainers:
