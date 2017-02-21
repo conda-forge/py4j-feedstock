@@ -11,6 +11,18 @@ Summary: Enables Python programs to dynamically access arbitrary Java objects
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/py4j-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/py4j-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/py4j-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/py4j-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/py4j-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/py4j-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/py4j/badges/version.svg)](https://anaconda.org/conda-forge/py4j)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/py4j/badges/downloads.svg)](https://anaconda.org/conda-forge/py4j)
+
 Installing py4j
 ===============
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `py4j` available on your platform 
 ```
 conda search py4j --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/py4j-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/py4j-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/py4j-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/py4j-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/py4j-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/py4j-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/py4j/badges/version.svg)](https://anaconda.org/conda-forge/py4j)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/py4j/badges/downloads.svg)](https://anaconda.org/conda-forge/py4j)
 
 
 Updating py4j-feedstock
