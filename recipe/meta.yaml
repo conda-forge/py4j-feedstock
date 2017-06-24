@@ -1,8 +1,8 @@
 {%set name = "py4j" %}
-{%set version = "0.10.4" %}
-{%set compress_type = "tar.gz" %}
+{%set version = "0.10.5" %}
+{%set compress_type = "zip" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "b49a28c6bd96d334a39c15c3ce52225585332eff5e2659c7dc7aa223aa8bd454" %}
+{%set hash_val = "86f78acff01b73fd8d2adaa713b608ddad6c9a0a00aaa71d6087827a713eed00" %}
 {%set build_num = "0" %}
 
 package:
