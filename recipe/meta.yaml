@@ -1,8 +1,8 @@
 {% set name = "py4j" %}
-{% set version = "0.10.6" %}
+{% set version = "0.10.7" %}
 {% set bundle = "zip" %}
 {% set hash_type = "sha256" %}
-{% set hash = "d3e7ac7c2171c290eba87e70aa5095b7eb6d6ad34789c007c88d550d9f575083" %}
+{% set hash = "721189616b3a7d28212dfb2e7c6a1dd5147b03105f1fc37ff2432acd0e863fa5" %}
 {% set build = 1 %}
 
 package:
@@ -15,7 +15,7 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: {{ build }}
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
