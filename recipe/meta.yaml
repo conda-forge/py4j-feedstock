@@ -1,9 +1,9 @@
 {% set name = "py4j" %}
-{% set version = "0.10.7" %}
+{% set version = "0.10.8.1" %}
 {% set bundle = "zip" %}
 {% set hash_type = "sha256" %}
-{% set hash = "721189616b3a7d28212dfb2e7c6a1dd5147b03105f1fc37ff2432acd0e863fa5" %}
-{% set build = 2 %}
+{% set hash = "8329bb156a0cf37be9642a2a060dbdb627b5fcb827919be65d95102daccca274" %}
+{% set build = 0 %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
