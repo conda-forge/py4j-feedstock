@@ -5,7 +5,7 @@ Home: http://py4j.sourceforge.net/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Enables Python programs to dynamically access arbitrary Java objects
 
