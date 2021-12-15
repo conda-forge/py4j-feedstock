@@ -26,6 +26,10 @@ test:
   imports:
     - py4j
     - py4j.tests
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: http://py4j.sourceforge.net/
