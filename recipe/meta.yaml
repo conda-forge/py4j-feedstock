@@ -11,8 +11,8 @@ source:
 
 build:
   noarch: python
-  number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 1
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
@@ -26,6 +26,10 @@ test:
   imports:
     - py4j
     - py4j.tests
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: http://py4j.sourceforge.net/
@@ -38,6 +42,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - pmlandwehr
     - parente
     - h-vetinari

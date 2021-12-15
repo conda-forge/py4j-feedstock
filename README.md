@@ -122,5 +122,4 @@ Feedstock Maintainers
 
 * [@h-vetinari](https://github.com/h-vetinari/)
 * [@parente](https://github.com/parente/)
-* [@pmlandwehr](https://github.com/pmlandwehr/)
 
