@@ -1,5 +1,5 @@
 {% set name = "py4j" %}
-{% set version = "0.10.9.3" %}
+{% set version = "0.10.9.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0d92844da4cb747155b9563c44fc322c9a1562b3ef0979ae692dbde732d784dd
+  sha256: abe93d6106f5a8abbd439bcb2c50c225ea05bfb187c6a5e5a0f9120de4ad99f9
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
