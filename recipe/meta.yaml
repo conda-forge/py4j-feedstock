@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -28,6 +28,7 @@ test:
     - py4j.tests
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
